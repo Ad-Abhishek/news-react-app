@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search-bar {
+  width: 600px;
+  height: 20px;
+}
+
+.router-link {
+  color: inherit;
+  text-decoration: inherit;
+}
