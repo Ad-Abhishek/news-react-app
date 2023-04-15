@@ -16,12 +16,14 @@ export default function NewsNav() {
           navbarScroll
         >
           <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link ><Link className='router-link' to="/add">Add</Link></Nav.Link>
-          <Nav.Link ><Link className='router-link' to="/search">Search</Link></Nav.Link>
+          <Nav.Link className='router-link' to="/add">Add</Nav.Link>
+          <Nav.Link className='router-link' to="/search">Search</Nav.Link>
         </Nav>
         
       </Navbar.Collapse>
     </Container>
   </Navbar>
+
+  
   )
 }
